@@ -1,0 +1,32 @@
+/* Styles for the task list container */
+.task-list {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+}
+/* Styles for each task item */
+.task-item {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute space evenly between items */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 8px; /* Add margin at the bottom */
+}
+/* Styles for the task content container */
+.task-content {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+}
+/* Styles for the task text */
+.task-text {
+    font-size: 25px; /* Set font size */
+    margin-right: 8px; /* Add margin on the right */
+    word-break: break-word; /* Allow long words to break */
+}
+/* Styles for the delete button */
+.delete-btn {
+    padding: 4px 8px; /* Add padding */
+    background-color: #e90e24; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}  

@@ -1,0 +1,27 @@
+/* Styles for the task input container */
+.task-input-container {
+    margin-bottom: 20px; /* Adds margin at the bottom of the input container */
+    display: flex; /* Uses flexbox for layout */
+    align-items: center; /* Aligns items vertically */
+}
+
+/* Styles for the task input field */
+.task-input {
+    background-color: #d6bb80; /* Sets background color */
+    padding: 8px; /* Adds padding to the input field */
+    font-size: 16px; /* Sets font size */
+    border: 1px solid #090909; /* Adds border */
+    border-radius: 4px; /* Rounds the corners */
+    width: 50%; /* Sets the width to 50% of its container */
+}
+
+/* Styles for the add button */
+.add-btn {
+    padding: 10px 16px; /* Adds padding */
+    background-color: #00e5ff; /* Sets background color */
+    color: #fff; /* Sets text color */
+    border: none; /* Removes border */
+    border-radius: 4px; /* Rounds the corners */
+    cursor: pointer; /* Changes cursor on hover */
+    margin-left: auto; /* Aligns the button to the right */
+}
